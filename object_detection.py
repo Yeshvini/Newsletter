@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-
 @author: yeshvini
 """
 
@@ -18,5 +17,6 @@ bbox, label, conf = cv.detect_common_objects(im)
 
 output_image = draw_bbox(im, bbox, label, conf)
 
+#plot the image
 plt.imshow(output_image)
 plt.show()
